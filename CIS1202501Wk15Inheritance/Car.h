@@ -17,5 +17,6 @@ public:
 	}
 	void setDoors(int);
 	int getDoors();
+	void displayInfo();
 };
 #endif
