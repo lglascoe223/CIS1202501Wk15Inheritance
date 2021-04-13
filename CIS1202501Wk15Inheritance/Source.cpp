@@ -1,4 +1,7 @@
 
+
+
+
 #include "Vehicle.h"
 #include"Car.h"
 #include"Truck.h"
@@ -7,6 +10,7 @@
 using namespace std;
 
 int main() {
+
 	Vehicle vehicle;
 	Car car;
 	Truck truck;
@@ -14,6 +18,9 @@ int main() {
 	int year;
 	int doors;
 	float towing;
+
+	cout << "Vehicle Program" << endl;
+	cout << endl;
 	cout << "Vehicle: " << endl;
 	cout << "Enter the manufacturer: "; getline(cin, manufacturer);
 	cout << "Enter the year built: "; cin >> year;
