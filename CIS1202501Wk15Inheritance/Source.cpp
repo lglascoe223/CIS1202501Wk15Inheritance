@@ -29,7 +29,7 @@ int main() {
 	vehicle.setYear(year);
 	vehicle.displayInfo();
 	cout << endl;
-	cout << endl; 
+	
 	cin.ignore();
 	cout << "Car:" << endl;
 	cout << "Enter in the Manufacturer: "; getline(cin, manufacturer);
@@ -41,6 +41,7 @@ int main() {
 	car.setDoors(doors);
 	car.displayInfo();
 	cout << endl;
+
 	cout << "Truck:" << endl;
 	cin.ignore();
 	cout << "Enter in the Manufacturer: "; getline(cin, manufacturer);
