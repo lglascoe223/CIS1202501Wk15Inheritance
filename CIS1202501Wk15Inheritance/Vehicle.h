@@ -22,6 +22,7 @@ public:
 	void setYear(int);
 	string getManufacturer();
 	int getYear();
+	void displayInfo();
 };
 #endif
 

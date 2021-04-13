@@ -2,6 +2,7 @@
 #include <string>
 #include<iostream>
 
+
 using namespace std;
 
 void Vehicle::setManufacturer(string name) {
@@ -15,4 +16,9 @@ string Vehicle::getManufacturer() {
 }
 int Vehicle::getYear() {
 	return year;
+}
+void Vehicle::displayInfo() {
+	cout << "Vehicle Information: " << endl;
+	cout << "Manufacturer: " << getManufacturer() << endl;
+	cout << "Year Built: " << getYear();
 }

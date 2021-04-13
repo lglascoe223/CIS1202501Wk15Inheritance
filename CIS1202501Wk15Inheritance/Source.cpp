@@ -15,9 +15,7 @@ int main() {
 	cout << endl;
 	vehicle.setManufacturer(manufacturer);
 	vehicle.setYear(year);
-	cout << "Vehicle Information: " << endl;
-	cout << "Manufacturer: " << vehicle.getManufacturer() << endl;
-	cout << "Year Built: " << vehicle.getYear();
+	vehicle.displayInfo();
 
 	system("pause");
 	return 0;
