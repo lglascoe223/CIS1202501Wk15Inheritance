@@ -1,3 +1,10 @@
+/*
+ *Leslie Glascoe
+ * CIS 1202-501
+ * WK 15 Inheritance
+ * 4/13/2020
+ */
+
 #include "Truck.h"
 #include "Vehicle.h"
 #include <string>
